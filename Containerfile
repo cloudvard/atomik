@@ -30,7 +30,7 @@ RUN dnf swap -y mesa-va-drivers mesa-va-drivers-freeworld
 RUN dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 
 RUN dnf install -y jetbrains-mono-fonts rsms-inter-fonts \
-    google-go-mono-fonts fira-code-fonts mozilla-fira-sans-fonts
+    google-go-mono-fonts fira-code-fonts
     
 RUN dnf remove -y firefox firefox-langpacks
 
